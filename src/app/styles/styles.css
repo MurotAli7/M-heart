@@ -240,7 +240,7 @@ label {
 /* =========================
    MOBILE (max-width: 380px)
    ========================= */
-@media (max-width: 380px) {
+@media (max-width: 620px) {
   .container {
     padding: 0 10px;
   }
