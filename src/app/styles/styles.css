@@ -294,5 +294,6 @@ label {
   /* Paragraphlar juda uzun bo‘lib ketmasin */
   .home-user-info p {
     margin: 4px 0;
+    color: #fff;
   }
 }/*# sourceMappingURL=styles.css.map */
