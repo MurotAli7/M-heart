@@ -116,6 +116,7 @@
     .home-user-info-text {
       font-size: 15px;
       text-align: center;
+      color: #fff;
     }
   
     .user-info-texts {
@@ -125,6 +126,7 @@
     .home-heart-score {
       font-size: 15px;
       text-align: center;
+      color: green;
     }
   
     .home-suppot-text {
@@ -136,6 +138,11 @@
     /* Paragraphlar juda uzun bo‘lib ketmasin */
     .home-user-info p {
       margin: 4px 0;
+    }
+    .home-p{
+      color: #fff;
+    }
+    span{
       color: #fff;
     }
   }

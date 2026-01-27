@@ -278,6 +278,7 @@ label {
   .home-user-info-text {
     font-size: 15px;
     text-align: center;
+    color: #fff;
   }
   .user-info-texts {
     font-size: 14px;
@@ -285,6 +286,7 @@ label {
   .home-heart-score {
     font-size: 15px;
     text-align: center;
+    color: green;
   }
   .home-suppot-text {
     font-size: 13px;
@@ -294,6 +296,11 @@ label {
   /* Paragraphlar juda uzun bo‘lib ketmasin */
   .home-user-info p {
     margin: 4px 0;
+  }
+  .home-p {
+    color: #fff;
+  }
+  span {
     color: #fff;
   }
 }/*# sourceMappingURL=styles.css.map */

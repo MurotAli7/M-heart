@@ -41,12 +41,12 @@ export default function HomeIn() {
                     <p className="home-user-info-text">Sensor malumotlari   </p>
                     <p className="home-heart-score">Yurak urish soni:</p>
                     <p className="home-user-info-text">Holatlar:</p>
-                    <p>Juda past(bradikardiya)  50dan past</p>
-                    <p>Normal (past) 50-59 oralig'ida</p>
-                    <p>Yaxshi (ideal holat) 60-90 oralig'ida</p>
-                    <p>Normal (yuqori)(stress yoki harakat) 91-100 oralig'ida</p>
-                    <p>Yomon (taxikardiya boshlanishi) 101-120 oralig'ida</p>
-                    <p>Jiddiy (xavfli xolat shifokor qabuliga borish kerak) 120 dan yuqori</p>
+                    <p className="home-p">Juda past(bradikardiya)  50dan past</p>
+                    <p className="home-p">Normal (past) 50-59 oralig'ida</p>
+                    <p className="home-p">Yaxshi (ideal holat) 60-90 oralig'ida</p>
+                    <p className="home-p">Normal (yuqori)(stress yoki harakat) 91-100 oralig'ida</p>
+                    <p className="home-p">Yomon (taxikardiya boshlanishi) 101-120 oralig'ida</p>
+                    <p className="home-p">Jiddiy (xavfli xolat shifokor qabuliga borish kerak) 120 dan yuqori</p>
                     <p className="home-suppot-text">Holatlar tinch yotgan odamda o'lchangan natijalarga qarab belgilanadi tashxislar taxminiy ishonch hosil qillish uchun shifokor qabuliga bosrish tavsiya etiladi</p>
 
                 </div>
