@@ -1,0 +1,68 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.home-header-title{
+    font-size: large;
+    font-size: 36px;
+    font-family: 'Roboto' , Aroial ,sans-serif;
+    font-weight: 900;
+    font: bold;
+}
+.home-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.home-chart-box{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(2, 44, 4);
+}
+
+.home-user-info{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.home-user-info-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-heart-score{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: green;
+}
+
+
+.home-suppot-text{
+    margin-top: 20px;
+    color: rgb(208, 255, 0);
+}
+
+.home-user-info,p{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.user-info-texts{
+    color: aquamarine;
+}

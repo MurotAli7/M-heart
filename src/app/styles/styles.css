@@ -1,0 +1,232 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 380px;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+}
+
+.login-logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 27px;
+  margin-bottom: 10px;
+}
+
+.login-title {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.login-inp-box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login-inp-id-num {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-date-inp {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-inps {
+  width: 100%;
+  height: 30px;
+  border: solid;
+  border-radius: 5px;
+  border-color: rgb(3, 107, 24);
+  padding-left: 5px;
+  color: rgb(13, 13, 171);
+}
+.login-inps:hover {
+  border-color: aqua;
+  color: blue;
+}
+
+.login-id-num-inp {
+  width: 300px;
+  height: 30px;
+  border: solid;
+  border-radius: 5px;
+  border-color: rgb(3, 107, 24);
+  padding-left: 5px;
+  margin-top: 5px;
+  color: rgb(13, 13, 171);
+}
+.login-id-num-inp:hover {
+  border-color: aqua;
+  color: blue;
+}
+
+.login-inp-date {
+  width: 300px;
+  height: 30px;
+  border: solid;
+  border-radius: 5px;
+  border-color: rgb(3, 107, 24);
+  padding-left: 5px;
+  color: rgb(13, 13, 171);
+  margin-top: 5px;
+}
+
+.login-title {
+  color: rgb(13, 13, 171);
+}
+
+label {
+  color: rgb(13, 13, 171);
+}
+
+.login-text {
+  width: 280px;
+  color: rgb(9, 213, 9);
+  font-size: 12px;
+}
+
+.login-submit {
+  width: 300px;
+  height: 38px;
+  background-color: blue;
+  border-radius: 15px;
+  font-family: "Roboto", Arial, san-serif;
+  margin-top: 20px;
+}
+.login-submit:hover {
+  box-shadow: 1 1 4px red;
+}
+.login-submit:active {
+  background-color: rgb(1, 1, 58);
+  box-shadow: 0 0 6px red;
+}
+
+.heart-wrapper {
+  display: flex;
+  background: black;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heart-svg {
+  display: block;
+}
+
+.heart-path {
+  will-change: stroke;
+}
+
+.heart-text {
+  fill: white;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+/* M harfi: rang + glow animatsiya */
+.heartbeat-text {
+  animation: mColorGlow 1.35s ease-in-out infinite;
+}
+
+/* Rang va glow birga almashadi */
+@keyframes mColorGlow {
+  0% {
+    fill: red;
+    filter: drop-shadow(0 0 4px red);
+  }
+  50% {
+    fill: blue;
+    filter: drop-shadow(0 0 12px blue);
+  }
+  100% {
+    fill: red;
+    filter: drop-shadow(0 0 4px red);
+  }
+}
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.home-header-title {
+  font-size: large;
+  font-size: 36px;
+  font-family: "Roboto", Aroial, sans-serif;
+  font-weight: 900;
+  font: bold;
+}
+
+.home-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-chart-box {
+  width: 1000px;
+  height: 500px;
+  background-color: rgb(2, 44, 4);
+}
+
+.home-user-info {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.home-user-info-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-heart-score {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: green;
+}
+
+.home-suppot-text {
+  margin-top: 20px;
+  color: rgb(208, 255, 0);
+}
+
+.home-user-info, p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-info-texts {
+  color: aquamarine;
+}/*# sourceMappingURL=styles.css.map */

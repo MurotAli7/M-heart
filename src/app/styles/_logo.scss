@@ -1,0 +1,46 @@
+.heart-wrapper {
+    display: flex;
+    background: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .heart-svg {
+    display: block;
+  }
+  
+  .heart-path {
+    will-change: stroke;
+  }
+  
+  .heart-text {
+    fill: white;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Roboto' ,Arial, sans-serif;
+  }
+
+/* M harfi: rang + glow animatsiya */
+.heartbeat-text {
+    animation: mColorGlow 1.35s ease-in-out infinite;
+  }
+  
+  /* Rang va glow birga almashadi */
+  @keyframes mColorGlow {
+    0% {
+      fill: red;
+      filter: drop-shadow(0 0 4px red);
+    }
+  
+    50% {
+      fill: blue;
+      filter: drop-shadow(0 0 12px blue);
+    }
+  
+    100% {
+      fill: red;
+      filter: drop-shadow(0 0 4px red);
+    }
+  }
+
