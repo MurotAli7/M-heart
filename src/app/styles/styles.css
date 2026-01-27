@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .container {
   width: 100vw;
   min-height: 100vh;
@@ -121,6 +122,11 @@ label {
   box-shadow: 0 0 6px red;
 }
 
+.support {
+  font-size: 12px;
+  color: red;
+}
+
 .heart-wrapper {
   display: flex;
   background: black;
@@ -229,4 +235,64 @@ label {
 
 .user-info-texts {
   color: aquamarine;
+}
+
+/* =========================
+   MOBILE (max-width: 380px)
+   ========================= */
+@media (max-width: 380px) {
+  .container {
+    padding: 0 10px;
+  }
+  .home {
+    width: 100%;
+    align-items: center;
+  }
+  .header {
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 8px;
+  }
+  .home-header-title {
+    font-size: 22px;
+    text-align: center;
+  }
+  .home-box {
+    width: 100%;
+    flex-direction: column; /* ENG MUHIM */
+    align-items: center;
+    gap: 15px;
+  }
+  /* === SENSOR / CHART BOX === */
+  .home-chart-box {
+    width: 100%;
+    height: 220px; /* telefon uchun qulay */
+    background-color: rgb(2, 44, 4);
+    border-radius: 10px;
+  }
+  /* === USER INFO === */
+  .home-user-info {
+    width: 100%;
+    padding: 8px;
+  }
+  .home-user-info-text {
+    font-size: 15px;
+    text-align: center;
+  }
+  .user-info-texts {
+    font-size: 14px;
+  }
+  .home-heart-score {
+    font-size: 15px;
+    text-align: center;
+  }
+  .home-suppot-text {
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  /* Paragraphlar juda uzun bo‘lib ketmasin */
+  .home-user-info p {
+    margin: 4px 0;
+  }
 }/*# sourceMappingURL=styles.css.map */

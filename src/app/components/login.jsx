@@ -115,6 +115,7 @@ function Login() {
         <button className="login-submit" type="submit">
           BOSHLASH
         </button>
+        <p className="support">(Sinov rejimida)</p>
       </div>
     </form>
   );

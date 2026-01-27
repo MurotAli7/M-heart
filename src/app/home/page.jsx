@@ -18,6 +18,7 @@ export default function HomeIn() {
   return (
     <div className="container">
         <div className="home">
+            <p className="support">(Sinov rejimida)</p>
             <div className="header">
                 <HeartLogo/>
                 <h1 className="home-header-title">
