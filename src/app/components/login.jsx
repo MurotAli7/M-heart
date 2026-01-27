@@ -20,7 +20,7 @@ function Login() {
   }
 
   function isValidID(id) {
-    const regex = /^[A-Z]{2}\d{7}$/;
+    const regex = /^[A-Z]{2}\-d{7}$/;
     return regex.test(id);
   }
 
