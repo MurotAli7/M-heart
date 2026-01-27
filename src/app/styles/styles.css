@@ -1,8 +1,8 @@
 @charset "UTF-8";
 .container {
-  width: 100vw;
+  max-width: 100vw;
   min-height: 100vh;
-  background: #000;
+  background: #111;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,11 +15,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000;
+  background-color: #111;
+  border: solid 1px green;
+  border-radius: 15px;
 }
 
 .login-logo {
-  width: 100%;
+  width: 87%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -31,6 +33,7 @@
   font-size: 14px;
   font-weight: bold;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #dad6d6;
 }
 
 .login-inp-box {
@@ -59,11 +62,10 @@
   border-radius: 5px;
   border-color: rgb(3, 107, 24);
   padding-left: 5px;
-  color: rgb(13, 13, 171);
+  color: #fff;
 }
 .login-inps:hover {
-  border-color: aqua;
-  color: blue;
+  color: #fff;
 }
 
 .login-id-num-inp {
@@ -74,11 +76,10 @@
   border-color: rgb(3, 107, 24);
   padding-left: 5px;
   margin-top: 5px;
-  color: rgb(13, 13, 171);
+  color: #fff;
 }
 .login-id-num-inp:hover {
-  border-color: aqua;
-  color: blue;
+  color: #fff;
 }
 
 .login-inp-date {
@@ -88,12 +89,8 @@
   border-radius: 5px;
   border-color: rgb(3, 107, 24);
   padding-left: 5px;
-  color: rgb(13, 13, 171);
+  color: #fff;
   margin-top: 5px;
-}
-
-.login-title {
-  color: rgb(13, 13, 171);
 }
 
 label {
@@ -109,17 +106,16 @@ label {
 .login-submit {
   width: 300px;
   height: 38px;
+  color: #fff;
+  font-weight: 700;
   background-color: blue;
-  border-radius: 15px;
+  border-radius: 5px;
   font-family: "Roboto", Arial, san-serif;
   margin-top: 20px;
 }
-.login-submit:hover {
-  box-shadow: 1 1 4px red;
-}
 .login-submit:active {
-  background-color: rgb(1, 1, 58);
   box-shadow: 0 0 6px red;
+  color: #fff;
 }
 
 .support {
@@ -129,7 +125,7 @@ label {
 
 .heart-wrapper {
   display: flex;
-  background: black;
+  background: none;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -152,7 +148,7 @@ label {
 
 /* M harfi: rang + glow animatsiya */
 .heartbeat-text {
-  animation: mColorGlow 1.35s ease-in-out infinite;
+  animation: mColorGlow 1.45s ease-in-out infinite;
 }
 
 /* Rang va glow birga almashadi */
@@ -163,7 +159,7 @@ label {
   }
   50% {
     fill: blue;
-    filter: drop-shadow(0 0 12px blue);
+    filter: drop-shadow(0 0 4px blue);
   }
   100% {
     fill: red;

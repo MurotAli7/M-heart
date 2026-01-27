@@ -1,6 +1,6 @@
 .heart-wrapper {
     display: flex;
-    background: black;
+    background: none;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +23,7 @@
 
 /* M harfi: rang + glow animatsiya */
 .heartbeat-text {
-    animation: mColorGlow 1.35s ease-in-out infinite;
+    animation: mColorGlow 1.45s ease-in-out infinite;
   }
   
   /* Rang va glow birga almashadi */
@@ -35,7 +35,7 @@
   
     50% {
       fill: blue;
-      filter: drop-shadow(0 0 12px blue);
+      filter: drop-shadow(0 0 4px blue);
     }
   
     100% {
