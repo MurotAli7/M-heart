@@ -2,17 +2,18 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
+
 app.use(cors());
 app.use(express.json());
 
-let values = []; // oxirgi signal
+let values = [];
 let bpm = 0;
 
-// BPM hisoblash
-function calculateBPM() {
-  if (values.length < 10) return;
+// ❤️ BPM hisoblash
+function calculateBPM(values) {
+  if (values.length < 20) return 0;
 
-  let threshold = 600; // signalga qarab sozlanadi
+  let threshold = 600;
   let peaks = 0;
 
   for (let i = 1; i < values.length - 1; i++) {
@@ -25,24 +26,22 @@ function calculateBPM() {
     }
   }
 
-  // 5 sekundda nechta urish bo'lsa
-  bpm = peaks * 12; // 5s * 12 = 60s
+  return peaks * 12;
 }
 
-// ESP yuboradi
+// 📡 ESP yuboradi
 app.post("/data", (req, res) => {
   const value = req.body.value;
 
   values.push(value);
-
   if (values.length > 200) values.shift();
 
-  calculateBPM();
+  bpm = calculateBPM(values);
 
   res.send("OK");
 });
 
-// Frontend oladi
+// 🌐 FRONTEND oladi
 app.get("/data", (req, res) => {
   res.json({
     value: values[values.length - 1] || 0,
