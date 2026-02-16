@@ -15,7 +15,7 @@ export default function HomeIn() {
 
   // 🔥 ECG grafik + server ulanish
   useEffect(() => {
-    const API = "https://m-heart.onrender.com"; // 🔥 URL ni o'zgartir
+    const API = "https://m-heart.onrender.com/data"; // 🔥 URL ni o'zgartir
 
     const canvas = document.getElementById("ecgChart");
     if (!canvas) return;
