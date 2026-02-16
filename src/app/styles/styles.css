@@ -111,11 +111,13 @@ label {
   background-color: blue;
   border-radius: 5px;
   font-family: "Roboto", Arial, san-serif;
-  margin-top: 20px;
 }
 .login-submit:active {
   box-shadow: 0 0 6px red;
   color: #fff;
+}
+.login-submit {
+  margin-top: 20px;
 }
 
 .support {
